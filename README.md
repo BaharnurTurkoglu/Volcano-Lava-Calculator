@@ -2,12 +2,12 @@
 
 This project is a Java-based algorithmic solution developed to calculate the maximum amount of hot lava that can be trapped within specific rock formations in a valley.
 
-## 📋 Project Overview
+## Project Overview
 * **Goal**: To calculate the total number of cells filled with hot lava for a given 1D rock formation array.
 * **Input**: The program accepts 10 integers representing the heights of rock formations in a valley.
 * **Core Logic**: The solution identifies local depressions (puddles) where lava can accumulate without overflowing.
 
-## 🛠 Technical Implementation
+## Technical Implementation
 The algorithm determines the "filling factor" for each cell by evaluating the maximum heights to its left and right.
 
 * **Language**: Java.
@@ -17,7 +17,7 @@ The algorithm determines the "filling factor" for each cell by evaluating the ma
     * `findLeftMaxValueIndex` / `findRightMaxValueIndex`: Identifies the containment walls for the lava.
 * **Course Context**: Developed as part of CENG113 - Computer Programming I at AYBU Computer Engineering Dept.
 
-## 🚀 Example Run
+## Example Run
 **Input Terrain:**
 `8 3 2 1 6 0 7 3 2 5`
 
